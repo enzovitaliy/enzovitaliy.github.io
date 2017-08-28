@@ -2,10 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   font-family: Roboto-Medium;
+  text-align: center;
 }
 
 .logo {
-  text-align: center;
   padding: 5px;
 }
 
@@ -15,7 +15,6 @@
 
 nav {
   background: #000;
-  text-align: center;
   white-space: nowrap;
   overflow: auto;
 }
@@ -40,7 +39,6 @@ nav a:hover {
 }
 
 .block-top {
-  text-align: center;
   padding: 20px;
 }
 
