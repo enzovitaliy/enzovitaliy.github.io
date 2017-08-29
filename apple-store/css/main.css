@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto-Medium;
+  margin: 0;
+  text-align: center;
+}
+
+.apple-icon {
+  background-color: #000;
+}
+
+.apple-icon img {
+  margin: 0.5em 0 0 0;
+  width: 1.8em;
+}
+
+.scroll-bar {
+  background-color: #000;
+}
+
+.scroll-bar ul {
+  padding: 0;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scroll-bar li {
+  display: inline-block;
+  padding: 0.86em;
+}
+
+.scroll-bar a {
+  color: #b3b3b3;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.scroll-bar a:hover {
+  color: #fff;
+}
+
+.block-iphone {
+  padding: 2em 0.5em;
+}
+
+.block-iphone h1 {
+  margin: 0.2em 0;
+}
+
+.block-iphone img {
+  max-width: 248px;
+  margin: 2em 0;
+  width: 100%;
+}
+
+.block-iphone a {
+  color: #515151;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.block-iphone a:hover {
+  color: #000;
+}
+
+.footer {
+  background-color: #efefef;
+  color: #424242;
+  font-size: 12px;
+  padding: 2em;
+}
