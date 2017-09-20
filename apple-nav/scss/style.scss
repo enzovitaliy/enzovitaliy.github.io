@@ -1,0 +1,85 @@
+$dark: #333;
+$light: #f3f3f1;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+}
+
+.fix-nav {
+  background-color: $dark;
+  padding: 1.2em;
+  position: fixed;
+  width: 100%;
+  opacity: 0.99;
+}
+
+#top {
+  height: 1px;
+  width: 18px;
+  background-color: $light;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
+#bottom {
+  height: 1px;
+  width: 18px;
+  background-color: $light;
+  position: absolute;
+  top: 1.4em;
+  left: 1em;
+}
+
+#logo {
+  width: 18px;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin: auto;
+}
+
+#shopping-bag {
+  width: 20px;
+  position: absolute;
+  top: 9px;
+  right: 0.8em;
+}
+
+.content {
+  background-color: $light;
+  padding: 4em 2em;
+  font-family: monospace;
+}
+
+.links {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #top, #bottom {
+    display: none;
+  }
+  #logo {
+    left: 5em;
+    top: 6px;
+    margin: 0;
+  }
+  #shopping-bag {
+    right: 5em;
+  }
+  .links {
+    display: inline-block;
+    position: absolute;
+    top: 10px; left: 0; right: 0;
+  }
+  .links a {
+    text-decoration: none;
+    color: $light;
+    padding: 0 18px;
+  }
+  .links a:hover {
+    color: #fff;
+  }
+}
