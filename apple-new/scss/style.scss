@@ -1,0 +1,83 @@
+$dark: #333;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.fixed-top-navbar {
+  background-color: $dark;
+  height: 3em;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.95;
+}
+
+#mnu, #logo, #bag {
+  width: 20px;
+  position: absolute;
+  top: 7.5px;
+  top: -1px;
+  bottom: 0;
+}
+
+#mnu {
+  margin: auto;
+  left: 12px;
+}
+
+#logo {
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+#bag {
+  margin: auto;
+  right: 12px;
+}
+
+.i8 {
+  background-color: #f9f0eb;
+  height: 545px;
+  position: relative;
+}
+
+.i8 > h2 {
+  text-align: center;
+  padding-top: 80px;
+  font-family: Roboto-Bold;
+  font-size: 35px; 
+}
+
+.i8 > h3 {
+  text-align: center;
+  padding-top: 8px;
+  font-family: Roboto-Light;
+  font-size: 20px;
+}
+
+.i8-img {
+  background-image: url(../img/iphone_8_small_2x.jpg);
+  width: 267px;
+  height: 357px;
+  background-size: 267px 357px;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.iphone-8 {
+  text-decoration: none;
+  color: $dark;
+}
+
+.block {
+  height: 400px;
+  background-color: #f3f3f1;
+}
