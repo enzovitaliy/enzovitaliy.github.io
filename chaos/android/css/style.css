@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.android-logo {
+  width: 100%;
+  max-width: 150px;
+  margin: 15px 0 15px 0;
+}
+
+.block-green {
+  background: #77c159;
+  padding: 20px;
+  text-align: center;
+}
+
+.block-white {
+  padding: 20px;
+  border: 1px solid #77c159;
+  text-align: center;
+}
+
+hr {
+  margin: 10px 0 10px 0;
+}
+
+.block-main {
+  padding: 20px;
+  border: 1px solid #77c159;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+}
+
+.android-icon {
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background: #77c159;
+}
+
+@media (max-width: 576px) {
+  .block-white {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+  .block-main {
+    border-right: none;
+    border-left: none;
+  }
+}
